@@ -9,7 +9,7 @@ function printAllPeople(pListPeople) {
 
     //Activamos o desactivamos los botones next/prev.
     botones[0].style.display = (!pListPeople.previous) ? 'none' : 'block';
-    botones[1].style.display = (!pListPeople.next) ? 'block' : 'block';
+    botones[1].style.display = (!pListPeople.next) ? 'none' : 'block';
 
     botones[0].dataset.url = pListPeople.previous;
     botones[1].dataset.url = pListPeople.next;
